@@ -1,9 +1,29 @@
----
----
+--- 
+--- 
 @import 'purecss/base';
 @import 'purecss/buttons';
 @import 'purecss/forms';
 @import 'purecss/grids-responsive';
 @import 'purecss/menus';
 @import 'purecss/tables';
-@import 'custom';
+
+.header {
+    padding: 1%;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    color: rgba(0,0,0);
+}
+
+.header-pure-menu-item {
+    @extend .pure-menu-item;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: larger;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
