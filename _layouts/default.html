@@ -1,52 +1,14 @@
-<link rel="stylesheet" href="/assets/css/purecss.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<link rel="stylesheet" href="/assets/css/purecss.scss">
+<link rel="stylesheet" href="/assets/css/styles.css">
 
 <div style="background: rgb(255,255,255);
-background: linear-gradient(180deg, rgb(255,255,255) 0%, rgb(202,222,255) 100%);">
-{% include header.html %}
+background: linear-gradient(180deg, rgb(255,255,255) 0%, rgb(202,222,255) 100%);" id="layout">
 
-{{ content }}
+    {% include header.html %}
 
-<table class="pure-table">
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Make</th>
-            <th>Model</th>
-            <th>Year</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Honda</td>
-            <td>Accord</td>
-            <td>2009</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Toyota</td>
-            <td>Camry</td>
-            <td>2012</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Hyundai</td>
-            <td>Elantra</td>
-            <td>2010</td>
-        </tr>
-    </tbody>
-</table>
-<div class="pure-menu pure-menu-horizontal">
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item pure-menu-selected">
-            <a href="#" class="pure-menu-link">Selected</a>
-        </li>
-        <li class="pure-menu-item">
-            <a href="#" class="pure-menu-link">Normal</a>
-        </li>
-        <li class="pure-menu-item pure-menu-disabled">
-            <a href="#" class="pure-menu-link">Disabled</a>
-        </li>
-    </ul>
-</div>
+    {{ content }}
+
 </div>

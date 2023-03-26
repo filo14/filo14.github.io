@@ -1,21 +1,17 @@
 --- 
 --- 
-@import 'purecss/base';
-@import 'purecss/buttons';
-@import 'purecss/forms';
-@import 'purecss/grids-responsive';
-@import 'purecss/menus';
-@import 'purecss/tables';
 
 .header {
     padding: 1%;
     border-bottom: 1px solid #eee;
     display: flex;
-    color: rgb(0,0,0);
+    color: rgb(226, 226, 226);
+    position: fixed;
+    top: 0;
+    bottom: 0;
 }
 
 .header-pure-menu-item {
-    @extend .pure-menu-item;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 2em;
